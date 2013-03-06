@@ -19,7 +19,9 @@ impl Platform for GlfwData {
         GlfwData
     }
 
-    fn foo(&self) { }
+    fn get_time(&self) -> f64 {
+        0.0
+    }
 }
 
 fn setup<D: VideoDriver>() {
