@@ -18,6 +18,8 @@ impl Platform for GlfwData {
         setup::<D>();
         GlfwData
     }
+
+    fn foo(&self) { }
 }
 
 fn setup<D: VideoDriver>() {

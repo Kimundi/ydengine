@@ -1,7 +1,6 @@
 // debug_callbacks.rs
 
 use super::glfw;
-use super::glfw::callbacks;
 
 pub fn setup_window(window: &glfw::Window) {
     window.set_pos_callback(window_pos_callback);
